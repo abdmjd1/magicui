@@ -555,6 +555,18 @@ export const docsConfig: DocsConfig = {
           items: [],
           label: "",
         },
+                {
+          title: "Backlight",
+          href: `/docs/components/backlight`,
+          items: [],
+          label: "New",
+        },
+        {
+          title: "Kinetic Text",
+          href: `/docs/components/kinetic-text`,
+          items: [],
+          label: "New",
+        },
         {
           title: "Scroll Progress",
           href: `/docs/components/scroll-progress`,
@@ -608,12 +620,6 @@ export const docsConfig: DocsConfig = {
           href: `/docs/components/animated-circular-progress-bar`,
           items: [],
           label: "",
-        },
-        {
-          title: "Backlight",
-          href: `/docs/components/backlight`,
-          items: [],
-          label: "New",
         },
       ],
     },

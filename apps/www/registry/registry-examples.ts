@@ -1890,4 +1890,17 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "kinetic-text-demo",
+    description:
+      "A text component that animates font weight of characters on hover.",
+    type: "registry:example",
+    registryDependencies: ["@magicui/kinetic-text"],
+    files: [
+      {
+        path: "example/kinetic-text-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ]
